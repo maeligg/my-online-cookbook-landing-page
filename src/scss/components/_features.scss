@@ -8,6 +8,10 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+
+    &:nth-child(even) {
+        flex-wrap: wrap-reverse;
+    }
 }
 
 .c-features__text-wrapper {
