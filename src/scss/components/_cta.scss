@@ -1,0 +1,10 @@
+.c-cta__wrapper.c-cta__wrapper {
+    background-color: var(--color-primary);
+    text-align: center;
+    font-size: clamp(1.2rem, calc(1rem + 2vw), 2rem);
+
+    a {
+        text-decoration: underline 4px;
+        text-underline-offset: 4px;
+    }
+}

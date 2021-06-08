@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Online Cookbook</title>
+    <meta name="description" content="My Online Cookbook is a free, open-source and easily extendable starter kit to create your own online recipes cookbook.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 105 55%22><text y=%22.9em%22 font-size=%2275%22>📒</text></svg>">
+    
+    <meta property="og:title" content="My Online Cookbook">
+    <meta property="og:description" content="My Online Cookbook is a free, open-source and easily extendable starter kit to create your own online recipes cookbook.">
+    <meta property="og:image" content="https://myonlinecookbook.xyz/img/thumbnail.jpg">
+    <meta property="og:url" content="https://myonlinecookbook.xyz">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="My Online Cookbook">
+    <meta name="twitter:image:alt" content="My Online Cookbook">
+
+    <style>
+      {% include "css/main.css" %}
+    </style>
+  </head>
+  <body class="{{bodyClass}}">
+    {% block content %}
+      {{content | safe}}
+    {% endblock content %}
+  </body>
+</html>

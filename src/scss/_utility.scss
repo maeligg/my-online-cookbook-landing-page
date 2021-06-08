@@ -1,0 +1,26 @@
+.u-sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+}
+
+.u-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.u-container--narrow {
+    margin: 0 auto;
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.u-bgc-grey-100 {
+    background-color: var(--color-grey-100);
+}

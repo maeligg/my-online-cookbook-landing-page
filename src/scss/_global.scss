@@ -1,0 +1,48 @@
+:root {
+    --color-primary: #ffdb70;
+    --color-secondary: #317d6b;
+    --color-secondary-dark: #145243;
+    --color-grey-100: #F9FAFB;
+    --color-grey-200: #F3F4F6;
+    --color-grey-300: #E5E7EB;
+    --color-grey-400: #D1D5DB;
+    --color-grey-500: #9CA3AF;
+    --color-grey-800: #4B5563;
+    --color-grey-900: #3A3A3A;
+    --color-white: #ffffff;
+
+    --shadow-md: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+    --shadow-xl: 0 25px 50px -12px rgba(0,0,0,0.25);
+}
+
+header, section {
+    padding: 30px 0;
+
+    @include mq(medium) {
+        padding: 60px 0;
+    }
+}
+
+section:nth-child(odd) {
+    background-color: var(--color-grey-100);
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: underline 2px;
+    text-underline-offset: 2px;
+
+    &:hover, &:focus {
+        outline: none;
+        color: var(--color-secondary-dark);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--color-secondary);
+    }
+}
+
+p + p, li + li {
+    margin-top: .5rem;
+}

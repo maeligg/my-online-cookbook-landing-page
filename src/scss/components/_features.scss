@@ -1,0 +1,29 @@
+.c-features__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;    
+}
+
+.c-features__feature {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.c-features__text-wrapper {
+    flex: 10 1 250px;
+}
+
+.c-features__image {
+    flex: 1 0 0;
+    display: flex;
+    justify-content: center;
+
+    svg {
+        width: 100px;
+
+        @include mq(medium) {
+            width: 150px;
+        }
+    }
+}
