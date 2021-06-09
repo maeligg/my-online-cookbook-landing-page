@@ -19,48 +19,45 @@ title: My Online Cookbook
     </section>
 
     <section>
-        <div class="u-container--narrow">
+        <div class="u-container">
             <h2>Features</h2>
-            <div class="c-features__wrapper">
-                <div class="c-features__feature">
-                    <span class="c-features__image">
-                        {% include "svg/feature-simple.svg" %}
-                    </span>
-                    <div class="c-features__text-wrapper">
-                        <h3>Easy to set up and maintain</h3>
-                        <p>Get started in minutes, whether you have a technical background or not. No coding required (unless you want to) ! All the recipes and site options are editable from the admin interface. Focus on writing your recipes, not fighting to make your website work.</p>
+            <div class="c-features__outer-wrapper">
+                <div class="c-features__inner-wrapper">
+                    <div class="c-features__feature">
+                        <span class="c-features__image">
+                            {% include "svg/feature-simple.svg" %}
+                        </span>
+                        <div class="c-features__text-wrapper">
+                            <h3>Easy to set up and maintain</h3>
+                            <p>Get started in minutes. No coding required ! All the recipes and site options are editable from the admin interface. Focus on writing your recipes, not fighting to make your website work.</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="c-features__feature">
-                    <div class="c-features__text-wrapper">
-                        <h3>Optimised for recipes</h3>
-                        <p>Unlike other general-purpose templates and website builders, My Online Cookbook is optimised out of the box for writing and finding your recipes. Quickly visualise which ingredients you need, easily search for recipes using specific ingredients, and automatically adapt quantities based on the number of servings.</p>
+                    <div class="c-features__feature">
+                        <div class="c-features__text-wrapper">
+                            <h3>Optimised for recipes</h3>
+                            <p>Unlike other general-purpose templates and website builders, My Online Cookbook is optimised out of the box for writing and finding your recipes. Quickly visualise which ingredients you need, easily search for recipes using specific ingredients, and automatically adapt quantities based on the number of servings.</p>
+                        </div>
+                        <span class="c-features__image">
+                            {% include "svg/feature-optimised.svg" %}
+                        </span>
                     </div>
-                    <span class="c-features__image">
-                        {% include "svg/feature-optimised.svg" %}
-                    </span>
-                </div>
 
-                <div class="c-features__feature">
-                    <span class="c-features__image">
-                        {% include "svg/feature-free.svg" %}
-                    </span>
-                    <div class="c-features__text-wrapper">
-                        <h3>No strings attached</h3>
-                        <p>You own all of your content, not some online platform. Your website, your rules. No tracking scripts, no annoying popups, no ads (unless you choose to add some).</p>
+                    <div class="c-features__feature">
+                        <span class="c-features__image">
+                            {% include "svg/feature-free.svg" %}
+                        </span>
+                        <div class="c-features__text-wrapper">
+                            <h3>No strings attached</h3>
+                            <p>You own all of your content, not some online platform. Your website, your rules. No tracking scripts, no annoying popups, no ads (unless you choose to add some).</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="c-features__feature">
-                    <div class="c-features__text-wrapper">
-                        <h3>Flexible and extensible</h3>
-                        <p>My Online Cookbook uses <a href="https://www.11ty.dev/">eleventy</a>, a powerful yet simple to use static site generator, and <a href="https://www.netlifycms.org/">Netlify CMS</a> for the editing interface. There is no “magic” : everything is easily customisable, should you want to.</p>
-                    </div>
-                    <span class="c-features__image">
-                        {% include "svg/feature-extensible.svg" %}
-                    </span>
-                </div>
+                <aside class="c-features__developer">
+                    <h3>You're a developer ? 👩‍💻</h3>
+                    <p>The kit is meant to be fully usable by non-technical users. But if you want to customise it further, you can !</p>
+                    <p>It is built with <a href="https://www.11ty.dev/">Eleventy</a>, a powerful yet simple to use static site generator, and <a href="https://www.netlifycms.org/">Netlify CMS</a> for the editing interface. Every feature is documented. There is no “magic” : everything is easily customisable, should you want to. Find out more on the <a href="https://github.com/maeligg/my-online-cookbook">project’s GitHub repository</a>.</p>
+                </aside>
             </div>
         </div>
     </section>
@@ -101,7 +98,7 @@ title: My Online Cookbook
         <div class="u-container--narrow">
             <h2>How to get started</h2>
 
-            <p>If you are a developer, you may find it easier to read the technical documentation in the <a href="https://github.com/maeligg/my-online-cookbook">project’s github repository</a>.</p>
+            <p>If you are a developer, you may find it easier to read the technical documentation on the <a href="https://github.com/maeligg/my-online-cookbook">project’s GitHub repository</a>.</p>
             <p>Otherwise, read the instructions or watch the video below then click on <a href="https://app.netlify.com/start/deploy?repository=https://github.com/maeligg/my-online-cookbook&stack=cms"><img  class="c-instructions__deploy-button" src="https://www.netlify.com/img/deploy/button.svg" alt="deploy to netlify"></a> to set up your website.</p>
             
             <details class="c-instructions__details">

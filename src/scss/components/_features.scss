@@ -1,7 +1,22 @@
-.c-features__wrapper {
+.c-features__outer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: flex-start;
+}
+
+.c-features__inner-wrapper {
+    flex: 10 1 250px;
     display: flex;
     flex-direction: column;
     gap: 3rem;    
+}
+
+.c-features__developer {
+    flex: 1 1 250px;
+    padding: 20px;
+    background-color: var(--color-grey-200);
+    border-radius: 10px;
 }
 
 .c-features__feature {
